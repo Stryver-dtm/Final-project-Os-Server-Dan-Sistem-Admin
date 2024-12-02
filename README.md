@@ -1,10 +1,10 @@
 # Final-project-Os-Server-Dan-Sistem-Admin
 
-##Final Project
+## Final Project
 
--Instal Apache
--Instal
--Instal
--instal
--Instal
+- Instal Apache
+- Instal
+- Instal
+- instal
+- Instal
 
