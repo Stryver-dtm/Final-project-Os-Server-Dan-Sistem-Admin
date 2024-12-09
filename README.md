@@ -3,9 +3,9 @@
 ## Final Project
 
 - Instal Apache
+- Instal mail server
 - Instal
-- Instal
-- instal
-- Instal
+- instal 
+- Instal 
 
 ## Installation
