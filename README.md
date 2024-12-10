@@ -16,3 +16,21 @@ Membuat Layanan Web Server di **Ubuntu Desktop 22.04.3** dengan spesifikasi beri
 6. [6. Let's Encrypt (SSL/TLS)](#6-lets-encrypt)
 
 ## Installation
+## 1. Nginx (Web Server)
+Penjelasan tentang instalasi dan konfigurasi Nginx (Web Server).
+Langkah 1: Install Nginx
+```
+sudo apt install nginx -y
+```
+Langkah 2: jalankan Nginx
+```
+sudo systemctl start nginx
+```
+Langkah 3: aktifkan nginx 
+```
+sudo systemctl enable nginx
+```
+Langkah 4: Buka browser dan akses 
+```
+https://ip-address
+```
