@@ -2,7 +2,7 @@
 
 ## Final Project
 
-Membuat Layanan Web Server di **Ubuntu Desktop 22.04.3** dengan spesifikasi berikut:
+Membuat Layanan Web Server di *** dengan spesifikasi berikut:
 - **RAM**: 4 GB  
 - **Processor**: 3 CPU  
 - **Disk**: 32 GB
