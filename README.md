@@ -33,3 +33,87 @@ Langkah 4: Buka browser dan akses
 ```
 https://ip-address
 ```
+## 2.MySQL (Database Server)
+Penjelasan tentang instalasi MySQL.
+Langkah 1: Install MySQL
+```
+sudo apt install mysql-server -y
+```
+Langkah 2: Verifikasi instalasi: MySQL
+```
+mysql --version
+```
+Langkah 3:Aktifkan Layanan MySQL
+```
+ssudo systemctl start mysql
+```
+Langkah 4: Aktifkan agar berjalan otomatis saat booting:
+```
+sudo systemctl enable mysql 
+```
+Langkah 5: Uji Koneksi MySQL
+1.Masuk Ke MySQL
+```
+sudo mysql -u root -p
+```
+2.Setelah masuk, Anda akan melihat prompt MySQL seperti ini:
+```
+mysql>
+```
+## 3.PHP (Backend Server)
+enjelasan tentang instalasi
+1.Tambahkan repositori tambahan
+```
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:ondrej/php -y
+sudo apt update
+```
+2.Instal PHP dengan perintah:
+```
+sudo apt install php -y
+```
+3.Verifikasi instalasi:
+```
+php -v
+```
+## 4.Redis (Cache Server)
+1.Instal Redis dengan perintah berikut:
+```
+sudo apt install redis-server -y
+```
+2.Verifikasi instalasi Redis:
+```
+redis-server --version
+```
+3.Mulai dan Aktifkan Redis
+```
+sudo systemctl start redis
+```
+4.Aktifkan layanan Redis agar berjalan otomatis saat booting:
+```
+sudo systemctl enable redis
+```
+5.Periksa status Redis:
+```
+sudo systemctl status redis
+```
+## 5.Let's Encrypt (SSL/TLS)
+1. Instal Certbot dan Plugin Web Server
+   Nginx
+   ```
+   sudo apt install certbot python3-certbot-nginx -y
+   ```
+2.Dapatkan Sertifikat SSL
+```
+sudo certbot --nginx
+```
+3.Uji Sertifikat SSL
+```
+https://yourdomain.com
+```
+4.Konfigurasi Firewall
+```
+sudo ufw allow
+sudo ufw reload
+```
+
