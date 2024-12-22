@@ -151,14 +151,17 @@ Tambahkan file html pada folder home
 ```
 nano /var/www/html/proyek-saya/home/index.html
 ```
+![img](https://github.com/Stryver-dtm/Final-project-Os-Server-Dan-Sistem-Admin/blob/main/home.png?raw=true)
 4. Tambahkan file html pada folder produk
 ```
 nano /var/www/html/proyek-saya/produk/index.html
 ```
+![img](https://github.com/Stryver-dtm/Final-project-Os-Server-Dan-Sistem-Admin/blob/main/produk.png?raw=true)
 5. Tambahkan file html pada folder kontak
 ```
 nano /var/www/html/proyek-saya/kontak/index.html
 ```
+![img](https://github.com/Stryver-dtm/Final-project-Os-Server-Dan-Sistem-Admin/blob/main/kontak.png?raw=true)
 6. Restart Apache
 Setelah semua file dan folder selesai dibuat, restart Apache untuk memastikan perubahan diterapkan:
 ```
