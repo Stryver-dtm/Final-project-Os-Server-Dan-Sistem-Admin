@@ -184,6 +184,7 @@ dan kalian sudah menghubungkan semua halaman
 11.Berikut hasil dari konfigurasi diatas:
 ![img](https://github.com/Stryver-dtm/Final-project-Os-Server-Dan-Sistem-Admin/blob/main/1.png?raw=true)
 ![img](https://github.com/Stryver-dtm/Final-project-Os-Server-Dan-Sistem-Admin/blob/main/2.png?raw=true)
+![img](https://github.com/Stryver-dtm/Final-project-Os-Server-Dan-Sistem-Admin/blob/main/3.png?raw=true)
 
 ## 7.Konfigurasi Mysql dan php
 1.Amankan instalasi MySQL:
