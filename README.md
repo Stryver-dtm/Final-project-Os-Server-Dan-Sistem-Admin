@@ -182,7 +182,7 @@ http://localhost/proyek-saya/home
 dan kalian sudah menghubungkan semua halaman 
 
 11.Berikut hasil dari konfigurasi diatas
-![Deskripsi Alternatif](path/ke/gambar.png)
+![Deskripsi Alternatif]([path/ke/gambar.png](https://github.com/Stryver-dtm/Final-project-Os-Server-Dan-Sistem-Admin/blob/main/1.png?raw=true))
 
 
 ## 7.Konfigurasi Mysql dan php
