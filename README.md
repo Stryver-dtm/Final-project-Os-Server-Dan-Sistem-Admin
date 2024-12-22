@@ -187,22 +187,30 @@ dan kalian sudah menghubungkan semua halaman
 ![img](https://github.com/Stryver-dtm/Final-project-Os-Server-Dan-Sistem-Admin/blob/main/3.png?raw=true)
 
 ## 7.Konfigurasi Mysql dan php
-1.Amankan instalasi MySQL:
+1 .Amankan instalasi MySQL:
 ```
 sudo mysql_secure_installation
 ```
 Ikuti langkah-langkah untuk mengatur kata sandi root dan mengamankan instalasi.
 
-2.Masuk ke MySQL untuk menguji koneksi:
+2 .Masuk ke MySQL untuk menguji koneksi:
 ```
 sudo mysql -u root -p
 ```
 
-3.Setelah masuk, Anda dapat membuat database dan user:
+3 .Setelah masuk, Anda dapat membuat database dan user:
 ```
 CREATE DATABASE nama_database;
 CREATE USER 'user_baru'@'localhost' IDENTIFIED BY 'password_baru';
 GRANT ALL PRIVILEGES ON nama_database.* TO 'user_baru'@'localhost';
 FLUSH PRIVILEGES;
 EXIT;
+```
+4 .Periksa apakah modul PHP sudah aktif di Apache:
+```
+sudo a2enmod php
+```
+5. Kemudian restart apache:
+```
+sudo systemctl restart apache2
 ```
