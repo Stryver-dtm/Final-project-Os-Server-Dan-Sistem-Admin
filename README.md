@@ -183,6 +183,7 @@ dan kalian sudah menghubungkan semua halaman
 
 11.Berikut hasil dari konfigurasi diatas:
 ![Deskripsi Alternatif](https://github.com/Stryver-dtm/Final-project-Os-Server-Dan-Sistem-Admin/blob/main/1.png?raw=true)
+2.[Deskripsi Alternatif](https://github.com/Stryver-dtm/Final-project-Os-Server-Dan-Sistem-Admin/blob/main/2.png?raw=true)
 
 
 ## 7.Konfigurasi Mysql dan php
