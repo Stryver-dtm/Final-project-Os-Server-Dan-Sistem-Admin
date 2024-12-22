@@ -151,7 +151,7 @@ nano /var/www/html/proyek-saya/produk/index.html
 ```
 nano /var/www/html/proyek-saya/kontak/index.html
 ```
-6 .Restart Apache
+6. Restart Apache
 Setelah semua file dan folder selesai dibuat, restart Apache untuk memastikan perubahan diterapkan:
 ```
 sudo systemctl restart apache2
@@ -180,6 +180,8 @@ sudo systemctl restart apache2
 http://localhost/proyek-saya/home
 ```
 dan kalian sudah menghubungkan semua halaman 
+
+11.Berikut hasil dari konfigurasi diatas
 
 ## 7.Konfigurasi Mysql dan php
 1.Amankan instalasi MySQL:
