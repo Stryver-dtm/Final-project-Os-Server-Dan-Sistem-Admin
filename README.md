@@ -182,6 +182,8 @@ http://localhost/proyek-saya/home
 dan kalian sudah menghubungkan semua halaman 
 
 11.Berikut hasil dari konfigurasi diatas
+![Deskripsi Alternatif](path/ke/gambar.png)
+
 
 ## 7.Konfigurasi Mysql dan php
 1.Amankan instalasi MySQL:
