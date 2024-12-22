@@ -36,6 +36,7 @@ Langkah 4: Buka browser dan akses
 ```
 https://ip-address
 ```
+![img](https://github.com/Stryver-dtm/Final-project-Os-Server-Dan-Sistem-Admin/blob/main/apache.png?raw=true)
 ## 2.MySQL (Database Server)
 Penjelasan tentang instalasi MySQL.
 Langkah 1: Install MySQL
