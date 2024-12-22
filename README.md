@@ -15,7 +15,7 @@ Membuat Layanan Web Server di **Ubuntu Desktop 22.04.3** dengan spesifikasi beri
 5. [Let's Encrypt (SSL/TLS)](#5-lets-encrypt)
 6. [Konfigurasi Apache2](#6-Konfigurasi-apache2)
 7. [Konfigurasi Mysql dan php](#7-Konfigurasi-Mysql-dan-php)
-8. [Menghubungkan Redis dengan Apache2](Menghubungkan-Redis-dengan-Apache2)
+8. [Menghubungkan Redis dengan Apache2](#8-Menghubungkan-Redis-dengan-Apache2)
 
 ## Installation
 ## 1. Apache2 (Web Server)
