@@ -7,6 +7,13 @@ Membuat Layanan Web Server di **Ubuntu Desktop 22.04.3** dengan spesifikasi beri
 - **Processor**: 3 CPU  
 - **Disk**: 32 GB
 
+## Layanan Yang Digunakan
+1. [Apache2 (Web Server)](#1-nginx-web-server)
+2. [MySQL (Database Server)](#2-mysql-dabase-server)
+3. [PHP (Backend Server)](#3-php-backend-server)
+4. [Redis (Cache Server)](#4-redis-cache-server)
+5. [Let's Encrypt (SSL/TLS)](#5-lets-encrypt)
+
 ## Daftar Isi
 1. [Apache2 (Web Server)](#1-nginx-web-server)
 2. [MySQL (Database Server)](#2-mysql-dabase-server)
