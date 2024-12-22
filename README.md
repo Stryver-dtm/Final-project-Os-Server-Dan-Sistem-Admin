@@ -184,9 +184,6 @@ dan kalian sudah menghubungkan semua halaman
 11.Berikut hasil dari konfigurasi diatas:
 1.[Deskripsi Alternatif](https://github.com/Stryver-dtm/Final-project-Os-Server-Dan-Sistem-Admin/blob/main/1.png?raw=true)
 
-2.[Deskripsi Alternatif](1.png)
-
-
 ## 7.Konfigurasi Mysql dan php
 1.Amankan instalasi MySQL:
 ```
