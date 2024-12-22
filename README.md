@@ -15,7 +15,7 @@ Membuat Layanan Web Server di **Ubuntu Desktop 22.04.3** dengan spesifikasi beri
 5. [Let's Encrypt (SSL/TLS)](#5-lets-encrypt)
 6. [Konfigurasi Apache2](#6-Konfigurasi-apache2)
 7. [Konfigurasi Mysql dan php](#7-Konfigurasi-Mysql-dan-php)
-8. 
+8. [Menghubungkan Redis dengan Apache2](Menghubungkan-Redis-dengan-Apache2)
 
 ## Installation
 ## 1. Apache2 (Web Server)
@@ -215,3 +215,54 @@ sudo a2enmod php
 ```
 sudo systemctl restart apache2
 ```
+
+## 8.Menghubungkan Redis dengan Apache2:
+Redis biasanya digunakan sebagai cache untuk meningkatkan kinerja aplikasi web. Anda dapat mengintegrasikannya dengan Apache2 menggunakan modul atau alat seperti PHP (jika aplikasi Anda berbasis PHP).
+
+Langkah-langkah:
+
+1. Konfigurasi Redis:
+
+Edit file konfigurasi Redis (/etc/redis/redis.conf) untuk memastikan Redis berjalan dengan aman.
+Pastikan Redis berjalan sebagai daemon:
+```
+supervised systemd
+```
+2. Instal Redis Extension untuk PHP (opsional): Jika Anda menggunakan PHP, instal ekstensi Redis:
+```
+sudo apt install php-redis
+```
+3. Restart Apache2: Setelah Redis diatur dan ekstensi diinstal, restart Apache2:
+```
+sudo systemctl restart apache2
+```
+
+## 9.Menggunakan Let's Encrypt untuk HTTPS di Apache2:
+
+Langkah-langkah:
+
+1. Instal Certbot: Certbot adalah alat untuk mengelola sertifikat SSL dari Let's Encrypt.
+```
+sudo apt update
+sudo apt install certbot python3-certbot-apache
+```
+2. Memasang Sertifikat SSL: Jalankan perintah berikut untuk mengonfigurasi HTTPS otomatis:
+```
+sudo certbot --apache
+```
+Anda akan diminta untuk memilih domain dan mengonfirmasi pengalihan otomatis dari HTTP ke HTTPS.
+
+3. Otomatisasi Pembaruan Sertifikat: Let's Encrypt sertifikat berlaku selama 90 hari. Anda dapat mengotomatiskan pembaruannya dengan cron job:
+```
+sudo crontab -e
+```
+Tambahkan baris berikut untuk pembaruan otomatis:
+```
+0 3 * * * certbot renew --quiet
+```
+4.Verifikasi Konfigurasi SSL: Pastikan situs Anda berjalan dengan HTTPS menggunakan:
+```
+sudo systemctl restart apache2
+```
+Redis digunakan untuk caching dan dapat diintegrasikan dengan aplikasi menggunakan modul atau ekstensi PHP.
+Let's Encrypt menyediakan SSL gratis untuk mengamankan situs web Anda, dan Certbot membantu mengintegrasikan sertifikat tersebut dengan Apache2.
