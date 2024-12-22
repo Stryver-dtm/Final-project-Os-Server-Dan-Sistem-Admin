@@ -18,7 +18,7 @@ Membuat Layanan Web Server di **Ubuntu Desktop 22.04.3** dengan spesifikasi beri
 8. 
 
 ## Installation
-## 1. Nginx (Web Server)
+## 1. Apache2 (Web Server)
 Penjelasan tentang instalasi dan konfigurasi Nginx (Web Server).
 Langkah 1: Install Apache2
 ```
